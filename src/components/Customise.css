@@ -1,0 +1,32 @@
+.customiseBtn{
+    backdrop-filter: blur(5px);
+    background-color: rgba(129, 128, 128, 0.3);
+    width:65px;
+    height:65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:15px;
+    right: 15px;
+    border-radius: 20px;
+    transition: all ease-in-out 0.3s;
+    z-index: 6;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+.customiseBtn:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    background-color: rgba(125, 125, 125, 0.4);
+    color:white;
+    cursor: pointer;
+}
+
+.customiseBtn{
+    color: rgb(196, 193, 193);
+    font-size: 30px;
+}
+
+.hidden{
+    display: none;
+}

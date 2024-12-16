@@ -1,0 +1,11 @@
+.bookmarksBox{
+    margin-top: 8vh;
+    color:white;
+    width:60%;
+    margin-left: 20%;
+    margin-bottom:-25vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+}

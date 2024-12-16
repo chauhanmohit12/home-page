@@ -1,0 +1,87 @@
+.ControlBackground{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(45, 45, 45, 0.2);
+    z-index: 5;
+    backdrop-filter: blur(2px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.ControlBox{
+    padding: 30px;
+    background-color: #424242;
+    width: 70%;
+    opacity: 1;
+    border-radius: 15px;
+    -ms-overflow-style: scroll;
+    max-height: 70vh;
+    overflow-x: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.ControlBox::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+
+.wallpaper{
+    height: 250px;
+    border-radius: 10px;
+    border:3px solid rgb(26, 18, 18);
+}
+
+
+.controlHeading{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 15px 0;
+    margin-top:0px;
+}
+.curentWallpaper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wallpaperHeading{
+    color: rgb(221, 220, 220);
+    font-size: 35px;
+    /* text-align: center; */
+    margin-left: 100px;
+    font-weight: 600;
+    margin-top: -0px;
+}
+.controlHeading2{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.backgoundImage{
+    height: 140px;
+    margin:15px 10px;
+    width:240px;
+    border-radius: 10px;
+    border: 5px solid #6e6e6e;
+    transition: border 0.2 ease-in-out;
+}
+.backgoundImage:hover{
+    cursor: pointer;
+    border: 5px solid rgb(60, 196, 241);
+}
+.imageBox{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #6e6e6e;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+}

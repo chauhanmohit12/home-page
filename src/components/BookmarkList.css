@@ -1,0 +1,93 @@
+.BookmarkBox {
+    margin-top: 3vh;
+    /* border: 1px solid white; */
+}
+
+.BookmarkHeading {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.BookamarkElements {
+    border-radius: 10px;
+    background-color: #6e6e6e;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.bookmarkElement {
+    display: flex;
+    font-weight: 700;
+    padding: 15px 10px;
+    /* border-radius: 10px; */
+}
+
+.bookmarkElement:hover {
+    cursor: pointer;
+    background-color: #858484;
+}
+
+.name {
+    font-size: 30px;
+    color: white;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.site {
+    font-size: 28px;
+    color: white;
+    /* border: 1px solid white; */
+    width: 60%;
+    text-align: center;
+}
+
+.bookmarkIcon {
+    font-size: 25px;
+    /* border: 1px solid white; */
+    width: 13%;
+    text-align: right;
+    padding-right: 20px;
+    padding: 5px 0;
+    color: rgb(39, 39, 39);
+    transition: color 0.2s ease-out;
+}
+
+.bookmarkIcon:hover {
+    color: #E53935;
+}
+
+.bookmarkFavicon {
+    height: 35px;
+    margin-left: 10px;
+}
+
+.divider {
+    margin: 0 1%;
+    border: none;
+    background-color: white;
+    height: 1px;
+    /* margin-bottom:5px; */
+}
+
+
+.addItem{
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    /* width: 17%; */
+    text-align: center;
+    justify-self: right;
+    background-color: #858484;
+    transition: 0.2s all ease-in;
+}
+.addItem:hover{
+    cursor: pointer;
+    background-color: #6e6e6e;
+}

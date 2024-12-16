@@ -54,7 +54,7 @@ const Body = (props) => {
       };
 
     return (
-        <div className='container' style={{backgroundImage: `url("/images/${background}")`}}>
+        <div className='container' style={{backgroundImage: `url("images/${background}")`}}>
             <Customise background={background} updateBackground={updateBackground} updateBookmarks={updateBookmarks} addShortcut={addShortcut} bookmarks={bookmarks} />
             <Search />
             <Bookmarks bookmarks={bookmarks} />
